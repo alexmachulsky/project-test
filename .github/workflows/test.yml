@@ -28,7 +28,6 @@ jobs:
               uses: wearerequired/lint-action@v2
               with:
                 eslint: true
-                prettier: true
     test:
         runs-on: ubuntu-latest
         needs: lint
